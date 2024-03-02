@@ -1,0 +1,25 @@
+{
+   "name": "8819122priscillakozaraseng8071midtermassignment",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "type": "commonjs",
+   "devDependencies": {
+      "@types/node": "^16.11.10",
+      "ts-node": "10.9.1",
+      "typescript": "4.5.2"
+   },
+   "dependencies": {
+      "@nestjs/mapped-types": "*",
+      "@nestjs/typeorm": "^10.0.2",
+      "mysql": "^2.14.1",
+      "mysql2": "^3.9.2",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "^0.3.20"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs",
+      "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
+      "webdriver-update": "webdriver-manager update"
+   }
+}
